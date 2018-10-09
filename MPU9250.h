@@ -1,9 +1,13 @@
 /*
 MPU9250.h
-Brian R Taylor
-brian.taylor@bolderflight.com
+BananaPi Bit Team
+juwan@banana-pi.com (Juwan·C)
+wanghao@banana-pi.com (Hulk Wang)
 
-Copyright (c) 2017 Bolder Flight Systems
+We modified it based on https://github.com/bolderflight/MPU9250
+The main purpose is to adapt the MPU9250 driver library of BPI-BIT (espressif32). 
+
+Copyright (c) 2017 BananaPi Bit Team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
 and associated documentation files (the "Software"), to deal in the Software without restriction, 
