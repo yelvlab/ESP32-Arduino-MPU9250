@@ -584,7 +584,7 @@ IMU.getFifoTemperature_C(&samples,temp);
 ## <a name="sensor-orientation"></a>Sensor Orientation
 This library transforms all data to a common axis system before it is returned. This axis system is shown below. It is a right handed coordinate system with the z-axis positive down, common in aircraft dynamics.
 
-<img src="https://github.com/BPI-STEAM/MPU9250/tree/master/extras/MPU-9250-AXIS.png" alt="Common Axis System" width="250">
+<img src="https://github.com/BPI-STEAM/MPU9250/blob/master/extras/MPU-9250-AXIS.png" alt="Common Axis System" width="250">
 
 **Caution!** This axis system is shown relative to the MPU-9250 sensor. The sensor may be rotated relative to the breakout board. 
 
@@ -599,7 +599,7 @@ This library transforms all data to a common axis system before it is returned. 
 
 # Wiring and Pullups 
 
-Please refer to the [MPU-9250 datasheet](https://github.com/BPI-STEAM/MPU9250/tree/master/docs/MPU-9250-Datasheet.pdf) and your microcontroller's pinout diagram. This library was developed using the [Embedded Masters breakout board](https://store.invensense.com/Controls/www.embeddedmasters.com/ProductDetail/EMSENSRMPU9250-Embedded-Masters/552444/) v1.1 for the MPU-9250. The data sheet for this breakout board is located [here](https://github.com/BPI-STEAM/MPU9250/tree/master/docs/Embedded-Masters-MPU-9250-Breakout.pdf). This library should work well for other breakout boards or embedded sensors, please refer to your vendor's pinout diagram.
+Please refer to the [MPU-9250 datasheet](https://github.com/BPI-STEAM/MPU9250/blob/master/docs/MPU-9250-Datasheet.pdf) and your microcontroller's pinout diagram. This library was developed using the [Embedded Masters breakout board](https://store.invensense.com/Controls/www.embeddedmasters.com/ProductDetail/EMSENSRMPU9250-Embedded-Masters/552444/) v1.1 for the MPU-9250. The data sheet for this breakout board is located [here](https://github.com/BPI-STEAM/MPU9250/blob/master/docs/Embedded-Masters-MPU-9250-Breakout.pdf). This library should work well for other breakout boards or embedded sensors, please refer to your vendor's pinout diagram.
 
 ## I2C
 
